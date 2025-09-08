@@ -41,7 +41,6 @@ The setup is simple: one script creates a **Scheduled Task** in Windows, and ano
 3. Open **PowerShell as Administrator**.
 
 4. Run:
-
  ```powershell
  Set-ExecutionPolicy Bypass -Scope Process -Force
  .\Setup.ps1
@@ -67,12 +66,18 @@ This will execute the same logic that the scheduled task uses.
 ## FAQ
 
 Q: Does this script reinstall the scheduled task every time?
+
+
 A: No. Setup.ps1 only needs to be run once. After that, only RunWinget.ps1 is executed at logon.
 
 Q: What if I want to change the schedule?
+
+
 A: Open Task Scheduler (taskschd.msc), find the folder WingetUpgradeScript, and edit the AutoUpdate task.
 
 Q: Where is Winget from?
+
+
 A: Winget is Microsoft’s official package manager for Windows, built into Windows 10 and 11.
 
 ---
