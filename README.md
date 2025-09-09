@@ -22,6 +22,7 @@ The setup is simple: one script creates a **Scheduled Task** in Windows, and ano
 
 - Location: `C:\tmp\<COMPUTERNAME>.log`  
 - Contains entries like:
+
   `2025-09-08 10:00:01 - Running winget upgrade...`  
   `2025-09-08 10:00:02 - winget: Upgrading Microsoft.Edge`  
   `2025-09-08 10:00:30 - winget: Successfully installed`
