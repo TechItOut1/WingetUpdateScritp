@@ -22,8 +22,8 @@ The setup is simple: one script creates a **Scheduled Task** in Windows, and ano
 
 - Location: `C:\tmp\<COMPUTERNAME>.log`  
 - Contains entries like:
-  `2025-09-08 10:00:01 - Running winget upgrade...`
-  `2025-09-08 10:00:02 - winget: Upgrading Microsoft.Edge`
+  `2025-09-08 10:00:01 - Running winget upgrade...`  
+  `2025-09-08 10:00:02 - winget: Upgrading Microsoft.Edge`  
   `2025-09-08 10:00:30 - winget: Successfully installed`
   `2025-09-08 10:00:45 - winget: Error 0x80073CF9 while upgrading SomeApp`
   `2025-09-08 10:00:50 - winget upgrade finished.`
